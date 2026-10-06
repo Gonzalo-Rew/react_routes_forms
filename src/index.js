@@ -4,16 +4,18 @@ import "./index.css";
 import App from "./App";
 import reportWebVitals from "./reportWebVitals";
 import Router from "./components/Router.jsx";
+import MenuRutas from "./components/MenuRutas.jsx";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <React.StrictMode>
     <h1>Índice principal</h1>
-    <hr/>
-      <Router />
-    <hr/>
+    <MenuRutas />
+    <hr />
+    <Router />
+    <hr />
     <h1>Pie de página</h1>
-  </React.StrictMode>
+  </React.StrictMode>,
 );
 
 // If you want to start measuring performance in your app, pass a function
